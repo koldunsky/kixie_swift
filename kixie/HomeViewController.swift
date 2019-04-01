@@ -8,8 +8,14 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
-
+class HomeViewController: NSViewController {
+    @IBOutlet weak var imageView: NSImageView!
+    @IBOutlet weak var dragView: DragView!
+    @IBOutlet weak var staticLabel: NSTextField!
+    @IBOutlet weak var loadingSpinner: NSProgressIndicator!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

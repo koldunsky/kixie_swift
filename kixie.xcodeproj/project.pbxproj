@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F1091900224E084D00A72126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10918FF224E084D00A72126 /* AppDelegate.swift */; };
-		F1091902224E084D00A72126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1091901224E084D00A72126 /* ViewController.swift */; };
+		F1091902224E084D00A72126 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1091901224E084D00A72126 /* HomeViewController.swift */; };
 		F1091904224E084E00A72126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1091903224E084E00A72126 /* Assets.xcassets */; };
 		F1091907224E084E00A72126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1091905224E084E00A72126 /* Main.storyboard */; };
+		F109191022527C3400A72126 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109190F22527C3400A72126 /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F10918FC224E084D00A72126 /* kixie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kixie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10918FF224E084D00A72126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1091901224E084D00A72126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1091901224E084D00A72126 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F1091903224E084E00A72126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1091906224E084E00A72126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1091908224E084E00A72126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1091909224E084E00A72126 /* kixie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kixie.entitlements; sourceTree = "<group>"; };
+		F109190F22527C3400A72126 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +56,12 @@
 			isa = PBXGroup;
 			children = (
 				F10918FF224E084D00A72126 /* AppDelegate.swift */,
-				F1091901224E084D00A72126 /* ViewController.swift */,
+				F1091901224E084D00A72126 /* HomeViewController.swift */,
 				F1091903224E084E00A72126 /* Assets.xcassets */,
 				F1091905224E084E00A72126 /* Main.storyboard */,
 				F1091908224E084E00A72126 /* Info.plist */,
 				F1091909224E084E00A72126 /* kixie.entitlements */,
+				F109190F22527C3400A72126 /* DragView.swift */,
 			);
 			path = kixie;
 			sourceTree = "<group>";
@@ -133,8 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1091902224E084D00A72126 /* ViewController.swift in Sources */,
+				F1091902224E084D00A72126 /* HomeViewController.swift in Sources */,
 				F1091900224E084D00A72126 /* AppDelegate.swift in Sources */,
+				F109191022527C3400A72126 /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
